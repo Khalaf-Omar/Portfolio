@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Omar Khalaf — Computer Science Undergraduate at Carleton University. Portfolio covering education, honors, skills, and early software projects.">
+<title>Omar Khalaf | Portfolio</title>
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%234f46e5'/%3E%3Ctext x='50' y='60' font-family='Arial, sans-serif' font-size='40' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Omar Khalaf | Portfolio">
+<meta property="og:description" content="Computer Science Undergraduate at Carleton University.">
+<meta property="og:image" content="assets/omar-photo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+
+<button id="mobile-toggle" class="mobile-toggle" aria-label="Open menu">
+  <i data-lucide="menu"></i>
+</button>
+
+<div class="layout">
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-top">
+      <div class="photo-frame">
+        <img src="assets/omar-photo.png" alt="Omar Khalaf">
+      </div>
+      <h1 class="side-name">Omar Khalaf</h1>
+      <p class="side-tagline">Computer Science Undergraduate</p>
+      <p class="side-sub">Carleton University · Class of 2031</p>
+    </div>
+
+    <nav class="side-nav">
+      <a href="#about" class="side-link active">About</a>
+      <a href="#education" class="side-link">Education</a>
+      <a href="#honors" class="side-link">Honors</a>
+      <a href="#skills" class="side-link">Skills</a>
+      <a href="#experience" class="side-link">Experience</a>
+      <a href="#projects" class="side-link">Projects</a>
+      <a href="#involvements" class="side-link">Involvements</a>
+      <a href="#contact" class="side-link">Contact</a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <a href="assets/Omar_Khalaf_Resume.pdf" target="_blank" rel="noopener" class="btn-resume">
+        <i data-lucide="file-down"></i>
+        <span>Résumé</span>
+      </a>
+      <div class="sidebar-socials">
+        <!-- Add real profile URLs once created -->
+        <a href="#" aria-label="GitHub" class="social-icon social-icon-text">GH</a>
+        <a href="#" aria-label="LinkedIn" class="social-icon social-icon-text">IN</a>
+        <a href="mailto:Omar.mohannadkhalaf@gmail.com" aria-label="Email" class="social-icon"><i data-lucide="mail"></i></a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+        <i data-lucide="moon" class="icon-moon"></i>
+        <i data-lucide="sun" class="icon-sun"></i>
+        <span class="toggle-label">Dark mode</span>
+      </button>
+    </div>
+  </aside>
+
+  <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+
+  <main class="content">
+
+    <section id="about" class="card hero-card reveal">
+      <span class="eyebrow">Welcome</span>
+      <h2 class="card-title">About</h2>
+      <p class="hero-text">
+        Motivated Computer Science undergraduate at Carleton University seeking to build on a foundation in
+        Python, Java, HTML, and C++ through hands-on software projects and internship or entry-level opportunities.
+        Eager to apply strong problem-solving skills and leadership experience gained through school and community
+        involvement to contribute to a collaborative team environment while continuing to grow as a developer.
+      </p>
+
+      <div class="stat-chips">
+        <div class="chip">
+          <span class="chip-value">2031</span>
+          <span class="chip-label">Expected Graduation</span>
+        </div>
+        <div class="chip">
+          <span class="chip-value">$21K</span>
+          <span class="chip-label">In Entrance Scholarships</span>
+        </div>
+        <div class="chip">
+          <span class="chip-value">100+</span>
+          <span class="chip-label">Volunteer Hours</span>
+        </div>
+        <div class="chip">
+          <span class="chip-value">4.0</span>
+          <span class="chip-label">High School GPA</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="card reveal">
+      <span class="eyebrow">Academics</span>
+      <h2 class="card-title">Education</h2>
+
+      <div class="edu-entry">
+        <div class="edu-main">
+          <h3>Carleton University</h3>
+          <p class="edu-sub">Bachelor of Computer Science (Honours)</p>
+        </div>
+        <span class="edu-date">Expected 2031</span>
+      </div>
+
+      <div class="edu-entry">
+        <div class="edu-main">
+          <h3>Sands National Academy</h3>
+          <p class="edu-sub">High School Diploma · GPA 4.0</p>
+        </div>
+        <span class="edu-date">Graduated 2025</span>
+      </div>
+    </section>
+
+    <section id="honors" class="card reveal">
+      <span class="eyebrow">Recognition</span>
+      <h2 class="card-title">Honors &amp; Awards</h2>
+
+      <div class="honor-entry">
+        <div class="honor-icon"><i data-lucide="award"></i></div>
+        <div class="honor-body">
+          <div class="honor-head">
+            <h3>Entrance Scholarship — Bachelor of Computer Science (Honours)</h3>
+            <span class="honor-year">2026</span>
+          </div>
+          <p class="honor-org">Carleton University</p>
+          <p>Awarded $16,000 total ($4,000 disbursed in the first year) in recognition of academic achievement upon admission.</p>
+        </div>
+      </div>
+
+      <div class="honor-entry">
+        <div class="honor-icon"><i data-lucide="award"></i></div>
+        <div class="honor-body">
+          <div class="honor-head">
+            <h3>President's Welcome Award for International Students</h3>
+            <span class="honor-year">2026</span>
+          </div>
+          <p class="honor-org">Carleton University</p>
+          <p>Awarded $5,000 in recognition of academic merit as an incoming international student.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="card reveal">
+      <span class="eyebrow">Toolbox</span>
+      <h2 class="card-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>Programming</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">HTML</span>
+            <span class="tag">C++</span>
+            <span class="tag">Java</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3>Tools &amp; Technologies</h3>
+          <div class="tag-row">
+            <span class="tag">VS Code</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">Command Line</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <h3>Core Competencies</h3>
+          <div class="tag-row">
+            <span class="tag">Leadership</span>
+            <span class="tag">Teamwork</span>
+            <span class="tag">Communication</span>
+            <span class="tag">Problem-Solving</span>
+            <span class="tag">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="card reveal">
+      <span class="eyebrow">Track Record</span>
+      <h2 class="card-title">Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-head">
+              <h3>Class President — Sophomore Year</h3>
+              <span class="timeline-date">Oct 2022 – Jun 2023</span>
+            </div>
+            <p class="timeline-org">Sands National Academy</p>
+            <ul>
+              <li>Led class initiatives and represented student interests to school administration and faculty.</li>
+              <li>Organized and coordinated class events, helping foster engagement among fellow students.</li>
+              <li>Developed leadership, public speaking, and organizational skills through ongoing responsibilities.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-head">
+              <h3>Teaching Assistant — AP Computer Science Principles</h3>
+              <span class="timeline-date">Nov 2024 – May 2025</span>
+            </div>
+            <p class="timeline-org">Sands National Academy</p>
+            <ul>
+              <li>Assisted the instructor in delivering lessons on core computer science and programming concepts to classmates.</li>
+              <li>Supported students during lab exercises and coding assignments, helping troubleshoot logic errors and reinforce concepts.</li>
+              <li>Provided one-on-one guidance to students who were struggling with programming fundamentals.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-head">
+              <h3>Community Service Volunteer — The Children's Museum Jordan</h3>
+              <span class="timeline-date">Oct 2024 – Jun 2025</span>
+            </div>
+            <ul>
+              <li>Completed 100 total hours of community service: 60 hours (Oct 2024 – Dec 2024) and 40 hours (May 2025 – Jun 2025).</li>
+              <li>Assisted with museum programs and activities, supporting educational outreach and engagement for young visitors.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="card reveal">
+      <span class="eyebrow">Built &amp; Learning</span>
+      <h2 class="card-title">Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-badge">MS</div>
+          <h3>Minesweeper</h3>
+          <span class="project-meta">Personal Project · Python · Jun 2026</span>
+          <p>Recreated the classic Windows Minesweeper game in Python, implementing grid generation, mine placement, and win/loss detection.</p>
+          <ul>
+            <li>Recursive cell-reveal logic for empty tiles.</li>
+            <li>Flagging system for marking suspected mines.</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <div class="project-badge">CL</div>
+          <h3>Calculator</h3>
+          <span class="project-meta">Personal Project · Python · Jun 2026</span>
+          <p>Built a calculator program in Python supporting addition, subtraction, multiplication, and division.</p>
+          <ul>
+            <li>Input validation to reject malformed entries.</li>
+            <li>Error handling for invalid operations, including division by zero.</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <div class="project-badge">SN</div>
+          <h3>Snake Game</h3>
+          <span class="project-meta">AP CSP Performance Task · Apr 2024</span>
+          <p>Built the classic Snake game, implementing movement, collision detection, and score tracking as a course performance task.</p>
+          <ul>
+            <li>Core game loop and rendering logic for real-time input.</li>
+            <li>Game state updates driving live score tracking.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="involvements" class="card reveal">
+      <span class="eyebrow">Community</span>
+      <h2 class="card-title">Involvements</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-head">
+              <h3>Computer Science Club</h3>
+              <span class="timeline-date">Nov 2024 – May 2025</span>
+            </div>
+            <p class="timeline-org">Sands National Academy</p>
+            <ul>
+              <li>Participated in club meetings and activities focused on programming, technology, and computer science concepts.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card reveal">
+      <span class="eyebrow">Get in touch</span>
+      <h2 class="card-title">Contact</h2>
+      <p class="contact-text">
+        Open to internship and entry-level opportunities, as well as conversations about software and computer
+        science. Feel free to reach out directly.
+      </p>
+      <div class="contact-actions">
+        <a href="mailto:Omar.mohannadkhalaf@gmail.com" class="btn-primary">
+          <i data-lucide="mail"></i>
+          <span>Omar.mohannadkhalaf@gmail.com</span>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Omar Khalaf</p>
+      <p class="footer-sub">Computer Science Undergraduate · Carleton University</p>
+    </footer>
+
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
